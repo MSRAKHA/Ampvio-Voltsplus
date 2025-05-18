@@ -113,7 +113,7 @@ st.markdown("""
 st.markdown(
     '''<div style="position:relative; width:100%; min-height:320px; background: linear-gradient(rgba(0,0,0,0.7), rgba(0,128,128,0.6)), url('https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1500&q=80') center/cover no-repeat; border-radius: 18px; margin-bottom: 1.5em; box-shadow: 0 4px 24px rgba(0,0,0,0.13);">
         <div style="padding: 2.5em 0;">
-<div class='big-header' style="color: #00ffcc; text-shadow: 1px 1px 3px rgba(0,0,0,0.5);">Ampvio Voltsplus Power Solution Pvt Ltd</div>
+<div class='big-header' style="color: #f0f0f0; text-shadow: 1px 1px 3px rgba(0,0,0,0.5);">Ampvio Voltsplus Power Solution Pvt Ltd</div>
             <div class='subtitle' style="color: #f0f0f0; text-shadow: 1px 1px 2px rgba(0,0,0,0.5);">Powering Your Home With Innovation – Solar Panels, Electronics & More</div>
             <div class='subtitle' style="color: #f0f0f0; text-shadow: 1px 1px 2px rgba(0,0,0,0.5);">Your trusted partner for solar panels, gadgets & home solutions</div>
         </div>
