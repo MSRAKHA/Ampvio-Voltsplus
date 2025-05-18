@@ -872,5 +872,5 @@ if section == "Contact":
 # Footer
 st.markdown("---")
 st.markdown('<div style="text-align:center; color:#003366; font-size:1.1em;">&copy; 2025 Ampvio Voltsplus Power Solution Pvt Ltd. All rights reserved.</div>', unsafe_allow_html=True)
-st.image("Banner.jpeg")
+
 
