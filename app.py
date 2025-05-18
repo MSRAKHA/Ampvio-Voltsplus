@@ -347,7 +347,7 @@
 
 import streamlit as st
 
-st.set_page_config(page_title="Ampvio Voltsplus Power Solution Pvt Ltd", layout="wide")
+st.set_page_config(page_title="Ampvio Voltsplus Power Solution Pvt Ltd", layout="wide",  page_icon="⚡🔋")
 
 # Custom CSS for styling
 st.markdown("""
@@ -455,15 +455,24 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# Hero Section (background image + overlay)
+# # Hero Section (background image + overlay)
+
 st.markdown(
-    '''<div style="position:relative; width:100%; min-height:320px; background: linear-gradient(rgba(0,34,68,0.8), rgba(0,191,174,0.5)), url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1500&q=80') center/cover no-repeat; border-radius: 18px; margin-bottom: 1.5em; box-shadow: 0 4px 24px rgba(0,0,0,0.13);">
+    '''<div style="position:relative; width:100%; min-height:320px; background: linear-gradient(rgba(0,0,0,0.7), rgba(0,128,128,0.6)), url('https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1500&q=80') center/cover no-repeat; border-radius: 18px; margin-bottom: 1.5em; box-shadow: 0 4px 24px rgba(0,0,0,0.13);">
         <div style="padding: 2.5em 0;">
-            <div class='big-header'>Ampvio Voltsplus Power Solution Pvt Ltd</div>
-            <div class='subtitle'>Powering Your Home With Innovation – Solar Panels, Electronics & More</div>
-            <div class='subtitle'>Your trusted partner for solar panels, gadgets & home solutions</div>
+            <div class='big-header' style="color: #ffffff; text-shadow: 1px 1px 3px rgba(0,0,0,0.5);">Ampvio Voltsplus Power Solution Pvt Ltd</div>
+            <div class='subtitle' style="color: #f0f0f0; text-shadow: 1px 1px 2px rgba(0,0,0,0.5);">Powering Your Home With Innovation – Solar Panels, Electronics & More</div>
+            <div class='subtitle' style="color: #f0f0f0; text-shadow: 1px 1px 2px rgba(0,0,0,0.5);">Your trusted partner for solar panels, gadgets & home solutions</div>
         </div>
     </div>''', unsafe_allow_html=True)
+# st.markdown(
+#     '''<div style="position:relative; width:100%; min-height:320px; background: linear-gradient(rgba(0,34,68,0.8), rgba(0,191,174,0.5)), url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1500&q=80') center/cover no-repeat; border-radius: 18px; margin-bottom: 1.5em; box-shadow: 0 4px 24px rgba(0,0,0,0.13);">
+#         <div style="padding: 2.5em 0;">
+#             <div class='big-header'>Ampvio Voltsplus Power Solution Pvt Ltd</div>
+#             <div class='subtitle'>Powering Your Home With Innovation – Solar Panels, Electronics & More</div>
+#             <div class='subtitle'>Your trusted partner for solar panels, gadgets & home solutions</div>
+#         </div>
+#     </div>''', unsafe_allow_html=True)
 
 # Navigation (Streamlit doesn't support sticky nav, but we can use sidebar)
 st.sidebar.image("Banner.jpeg", use_container_width=True)
